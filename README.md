@@ -1,36 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>CV</title>
-</head>
-<body>
-  <h2>Prénom Nom : Bicha Anaïs</h2>
-  <p>📍 Ville : Alger| Age : 13 ans</p>
-  <p>📞 0540986163 | ✉️ anaisbicha88@gemail.com</p>
+console.log("hello world");
+alert("Do you want to buy this article");
+var VisitorName=("What is your name:");
+var VisitorName= prompt("What is your name:");
+console.log( VisitorName);
+var ConfirmYesNo=confirm("Are you okay with this ?");
+console.log(ConfirmYesNo);
+//this is a comment!
+/*this is a comment this is a comment this is a comment this is a comment*/
+console.log(typeof(true));
+console.log(typeof(234,56));
+console.log("abracadabra");
+console.log(typeof(abracadabra));
+console.log(5+5);
+console.log(5*5);
+console.log(5**5)
+var a=12
+var b=15
+console.log(a+b);
+var a=prompt(" enter your first number");
+var b=prompt("enter your second number:");
+console.log(a+b);
+console.log(a*b);
+console.log(5<=5);
+console.log(6<2);
+var x=1;                                                                                                                                                                            var y=0;                                                                                                                                                                           var z=null;                                                                                                                                                                       
+consol.log(x&&y);
+var x=1;                                                                                                                                                                            
+var y=0;
+var z=null;
+console.log(x&&y);
+console.log(z&&y);
+console.log(z||x);
+console.log(y||z);
+var x = 0;
+var y = 10;
+var z = 5;
+console.log(z > x && z < y) ;
 
-  <h2>🎯 Objectif</h2>
-  <p>Élève de 4e, je cherche un stage pour découvrir le monde professionnel. Sérieuse, curieuse et motivée.</p>
+console.log(z > x && z <= y) ;
 
-  <h2>📚 Formation</h2>
-  <ul>
-    <li>2024 - aujourd’hui : Collège Taj-El-Ouloum – 4e</li>
-    <li>2020 - 2024 : CM1 à 4e – 2 établissement différents(Cours Soleil et Taj-El-Ouloum)</li>
-  </ul>
+console.log(z > x && z != y) ;
 
-  <h2>🧰 Compétences</h2>
-  <ul>
-  <li>Sociable et à l'aise avec les gens</li>
-  <li>Apprend rapidement et s'adapte facilement</li>
-  <li>Capacité à travailler en équipe</li>
-  <li>Sérieuse et motivée</li>
-</ul>
-
-  <h2>🎯 Centres d’intérêt</h2>
-  <ul>
-    <li>Taekwondo</li>
-    <li>Dessin et peinture</li>
-    <li>Regarder des series et animés</li>
-    <li>Jouer de la musique</li>
-  </ul>
-</body>
-</html>
+var numbers = [19, 65, 1, 2, 24, 13]; 
+var sum = 0;
+var i = 0;                                                                                                                                                                         for (let i = 0; i < numbers.length; i++) {
+sum += numbers[i];
+}
+var storage= [1,"Monday",null];
+console.log(storage[0]);
+console.log(storage[6]);
+console.log(storage.length);
